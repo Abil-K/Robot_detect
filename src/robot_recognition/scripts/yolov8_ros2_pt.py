@@ -27,7 +27,7 @@ class Camera_subscriber(Node):
         self.yolov8_inference = Yolov8Inference()
         self.subscription = self.create_subscription(
             Image,
-            'camera/image_raw',
+            '/image_raw',
             self.camera_callback,
             10)
         self.subscription 

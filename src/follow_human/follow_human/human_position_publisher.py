@@ -110,7 +110,7 @@ class HumanPositionPublisher(Node):
         # Nhận ảnh từ camera
         self.subscription = self.create_subscription(
             Image,
-            '/camera/image_raw',
+            '/image_raw',
             self.image_callback,
             10
         )
