@@ -1,0 +1,16 @@
+build/
+install/
+log/
+__pycache__/
+*.pyc
+.vscode/
+.idea/log/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# VSCode & IDE files
+.vscode/
+.idea/
